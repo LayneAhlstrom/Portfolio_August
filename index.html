@@ -7,16 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Layne Ahlstrom Web Developer Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://kit.fontawesome.com/7885251a9a.js" crossorigin="anonymous"></script>
     </head>
-
-    <!-- developers name, recent photo, 
-        links (anchor links) to sections about them, 
-        their work, 
-        how to contact me  -->
-        <!-- in each section:  titled images of developers apps
-        first section is larger and each section takes them to website -->
-        <!-- responsive HTML -->
-
+        
     <body>
         <header class="header">
                 <!-- if time figre out how to accomplish design goal with unique L & A -->
@@ -30,7 +23,8 @@
 
         <section class="quote">
             <div>
-                <h2>[placeholder for quote...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar turpis vitae suscipit rhoncus. Nunc ac porta risus, nec mattis nisl. ]</h2>
+                <h2>“There is nothing new under the sun, but there are new suns.”
+                    ― Octavia E. Butler</h2>
             </div>
         </section>
 
@@ -38,9 +32,42 @@
             <div>
                 <h2 id="aboutme" class="sectiontabs">about me...</h2>
                 <div class= "me"> 
-                    <p>
-                        [placeholder text for my bio...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar turpis vitae suscipit rhoncus. Nunc ac porta risus, nec mattis nisl. In condimentum pulvinar metus. Praesent posuere rutrum ipsum, eu congue tortor varius laoreet. Sed tincidunt leo vitae pretium imperdiet. Aliquam eget sagittis orci, pharetra iaculis arcu. Sed vitae molestie nisi. Donec mattis laoreet lacus, et consequat tellus porttitor vitae. Praesent erat tortor, molestie vitae dui eget, suscipit pellentesque lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ]
-                    </p>
+                    <div>
+                        
+                        
+                        <p class="bio">
+                            Hi! I’m Layne (she/her). I’m a Bay-Area based, half-brit, neurodiverse, groovy, feeler, thinker, creator, breaker, fixer and healer. I am determined to foster a more safe, kind and lovely society to exist in. I build websites, and I do a lot more than that.<br><br>My work ethic recognizes collaboration as an act of abundance, so I can’t wait to hear your vision. I believe the answer to most of life’s questions lives somewhere between radical self-love, authentic identity-informed connection with eachother, a funky beat, and a human-centered digital platform. What does all of that mean? Work with me to find out!
+                        </p>
+                        <br>
+                        
+                        
+                        <details> 
+                            <summary>What work do I do?</summary>
+                            <p>I believe technology can be a tool to heal, inform, and support community care and environmental health when the right people are making decisions for the greater good.<br><br>To me, that could look like me improving an ethically/sustainably sourced home-store website or it could look like me building an app that connects a local community to their activist organizers.</p>
+                        </details>
+                        <br>
+
+                        <details>
+                            <summary>How did I get here?</summary>
+                            <p> 
+                            I worked as a professional communications consultant in the public sector for four years, and found myself drained by the industry-inflicted barriers from helping people. I was ultimately unable to live in integrity with my values. Through that, the world of virtual communication seduced me.
+                            <br><br>Something you likely don’t know is that us ADHDers are professional problem-solvers (or <a href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DfWCocjh5aK0&sa=D&source=docs&ust=1660858452209423&usg=AOvVaw3SUNBKeN22wQs-JW71aA6M"> in the words of Salif Mahamane</a>, we are “potential hunting and gathering badasses”). And…well, I saw a problem and had a solution. I was (and remain to be) heavily concerned about who is leading the exponentially impactful powerhouse that is technology and how it’s being weaponized in society. I see that it is a mechanism for socializing disassociation/dehumanization, classism/income inequality, globalism/anti-localism and detachment from and ultimate destruction of the natural world. As I noted earlier, I also see that tech can be a tool to heal, inform, and support community care & environmental health when the right people are making decisions for the greater good, rather than those centering individualism, power and profit. The power technology has and the power it will have continues to be a threat and an opportunity for all of us.
+                            <br><br>So I, obviously, had to do what needed doing to get my voice in the room. I knew it was my job to get in there and empower the right people via the virtual world. I attended a 6-month intensive full-stack web development bootcamp and immediately began freelance web development at a cross-section with my strategic communications skills.
+                            </p>
+                        </details>
+                        <br>
+
+                        <details class="access">
+                            <summary>Click arrow to the left for accessible bio</summary>
+                            <p><i>
+                            Accessibility disclaimer: As a neurodiverse person, I know what it’s like to be in spaces that aren’t built for your safety or prosperity. I am passionate about social justice and accessibility. I aim to make the spaces I am a part of creating, available and functional for as many people as possible. I am a growth-minded person, meaning I work to celebrate feedback offered to me. Please reach out if something on this site needs improving. 
+                            </i></p>
+                            <p>
+                            Hello, I am Layne (the pronouns I prefer other people use when referring to me are: she/ her/ hers). I’m a half-British, neurodiverse, web designer and strategic communicator. My goal with the work I do, is to foster a safer, kinder and more lovely society to exist in. I build websites and I do many other things. I believe technology can be a tool to heal, inform, and support community care and environmental health when the right people are making decisions for the greater good. I see collaboration and visioning with others as a way to create stronger and more unique work than we could do individually. Please reach out if you’d like to talk more.                            
+                            </p>
+                        </details>
+
+                    </div>
                     <figure>
                         <img src="C:\Users\Layne Ahlstrom\Desktop\my_class_repo\challenges\Portfolio_August\Assets\images\ProfessionalImage.PNG" alt="Long brown-haired person smiling in front of green background"/>
                     </figure>
@@ -48,39 +75,37 @@
             </div>    
         </section>
 
-        <main>
-            <div>
-                <!-- why does the anchor link take me to the photo of me? because of page-end? -->
-                <h2 id= "work" class="sectiontabs">my work...</h2>
-            </div>
+        <main>       
+            <h2 id= "work" class="sectiontabs">my work...</h2>
             <section class="projects">
                 <div class="group1">
                     <article class="card">
                         <h3>Project One</h3>
+                        <p><em>...coming soon</em></p>
                         <img src="Project1.PNG" alt="psychedelic art"/>
                     </article>
 
                     <article class="card">
                         <h3>Project Two</h3>
-                        <!-- this is a test -->
+                        <p><em>...coming soon</em></p>
                         <img src="Project2.PNG" alt="psychedelic art"/>
                     </article>
                 </div>
 
                 <article class="cardfeature">
-                    <!-- This will be feature project -->
                     <h3>Horiseon Code Refactor</h3>
                     <img src="Project_3.png" alt="psychedelic art"/>
                 </article>
-                
                 <div class="group2">
                     <article class="card">
                         <h3>Project Three</h3>
+                        <p><em>...coming soon</em></p>
                         <img src="Project4.PNG" alt="psychedelic art"/>
                     </article>
 
                     <article class="card">
                         <h3>Project Four</h3>
+                        <p><em>...coming soon</em></p>
                         <img src="Project5.PNG" alt="psychedelic art"/>
                     </article>
                 </div>
@@ -90,48 +115,39 @@
         <section>
                 <h2 id="more" class="sectiontabs">more from me...</h2>
             <div class="morebuttons">
-                <a class="pull" href="">Resume</a>
-                <a class="drop" href="">GitHub</a>
-                <a class="pull" href="">LinkedIn</a>
-                <a class="drop" href="">Spotify</a>
+                <a  href="">Resume</a>
+                <a class="drop" href="https://github.com/LayneAhlstrom">GitHub</a>
+                <a href="https://www.linkedin.com/in/layne-ahlstrom-58a659140/">LinkedIn</a>
+                <a class="drop" href="https://open.spotify.com/user/1212464418?si=eb26c01d476c4df5">Spotify</a>
             </div>
         </section>
 
         <footer>
-            <div>
                 <h2 id="getintouch" class="sectiontabs">get in touch...</h2>
+            
+            <div class="contactlinks">
+                <article class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>cell: 831.332.6871</h3>
+                    <em>please leave a voicemail</em>   
+                </article>
+
+                
+                <a href="mailto:layne.ahlstrom@gmail.com"><article class="contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>layne.ahlstrom@gmail.com</h3>
+                </article> </a>   
+                
+                <a href="https://www.linkedin.com/in/layne-ahlstrom-58a659140/"><article class="contact">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                </article></a>
+
+                <a href="https://github.com/LayneAhlstrom"><article class="contact">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                </article></a>
             </div>
-
-            <article>
-                <figure>
-                    <!-- find/add symbol -->
-                    <a href=""><img src="" alt=""/></a>
-                </figure>
-                <h3>cell: 831.332.6871</h3>
-                <p>to help me ward off the bots, please leave a voicemail</p>   
-            </article>
-
-            
-            <article>
-                <figure>
-                    <a href=""><img src="" alt=""/></a>
-                </figure>
-                <h3>layne.ahlstrom@gmail.com</h3>
-            </article>    
-            
-            <article>
-                <figure>
-                    <a href=""><img src="" alt=""/></a>
-                </figure>
-                <h3>LinkedIn</h3>
-            </article>
-
-            <article>
-                <figure>
-                    <a href=""><img src="" alt=""/></a>
-                </figure>
-                <h3>GitHub</h3>
-            </article>
         </footer>
     </body>
 </html>
