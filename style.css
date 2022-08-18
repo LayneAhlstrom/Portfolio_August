@@ -293,12 +293,8 @@ header nav a:hover, .card:hover, .cardfeature:hover, .morebuttons a:hover, .cont
     .morebuttons {
         height: auto;
         justify-content: flex-start;
-
     }
-    .drop {
-       
-    }
-
+ 
 }
 @media screen and (max-width: 992px) {
     header {
@@ -343,14 +339,6 @@ header nav a:hover, .card:hover, .cardfeature:hover, .morebuttons a:hover, .cont
         display: flex;
         width: 100%;
     }
-    
-    .me p {
-      
-    }
-
-    .me figure {
-
-    }
 
     .morebuttons {
         height: auto;
@@ -376,9 +364,3 @@ header nav a:hover, .card:hover, .cardfeature:hover, .morebuttons a:hover, .cont
         padding-right: 20px;
     }
 }
-
-@media screen and (max-width: 576px){
-
-}
-
-
