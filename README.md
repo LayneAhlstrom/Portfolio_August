@@ -19,4 +19,4 @@ fontawesome.com
 UC Berkeley Coding Bootcamp course curriculum and instruction by Iyrna Grom. 
 
 ## Screenshot 
-<img src="_C__Users_Layne%20Ahlstrom_Desktop_my_class_repo_challenges_Portfolio_August_Main_index.html.png">
+<img src="Portfolio_August_scrnsht.png">
