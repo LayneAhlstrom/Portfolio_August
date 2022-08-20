@@ -9,7 +9,7 @@ https://layneahlstrom.github.io/Portfolio_August/
 
 ## Usage
 
-This site should be used to learn more about Layne Ahlstrom as a developer and strategic community.
+This site should be used to learn more about Layne Ahlstrom as a developer and strategic communiticator.
 
 ## Credits
 
