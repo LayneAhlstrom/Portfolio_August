@@ -14,7 +14,7 @@ This site should be used to learn more about Layne Ahlstrom as a developer and s
 ## Credits
 
 fontawesome.com 
-https://layneahlstrom.github.io/Portfolio_August/#getintouch-->
+https://layneahlstrom.github.io/Portfolio_August/#getintouch
 
 UC Berkeley Coding Bootcamp course curriculum and instruction by Iyrna Grom. 
 
